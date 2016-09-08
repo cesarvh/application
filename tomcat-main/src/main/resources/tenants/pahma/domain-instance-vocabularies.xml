@@ -131,4 +131,92 @@
 			<option id="survey">survey</option>
 		</options>
 	</instance>
+	<instance id="vocab-legacydepartment">
+		<web-url>legacydepartment</web-url>
+		<title-ref>legacydepartment</title-ref>
+		<title>legacydepartment</title>
+		<options>
+				<option id="audrec">Audio recordings</option>
+				<option id="castmold">Casts and molds</option>
+				<option id="cat1">Cat. 1 - California (archaeology and ethnology)</option>
+				<option id="cat2">Cat. 2 - North America (except Mexico and Central America)</option>
+				<option id="cat3">Cat. 3 - Mexico, Central America, and Caribbean Area</option>
+				<option id="cat4">Cat. 4 - South America (Uhle Collection)</option>
+				<option id="cat5">Cat. 5 - Africa (except the Hearst Reisner Egyptian Collection)</option>
+				<option id="cat6">Cat. 6 - Ancient Egypt (the Hearst Reisner Egyptian Collection)</option>
+				<option id="cat7">Cat. 7 - Europe (incl. Russia west of Urals, north of Caucasus)</option>
+				<option id="cat8">Cat. 8 - Classical Mediterranean regions</option>
+				<option id="cat9">Cat.  9 - Asia (incl. Russia east of Urals)</option>
+				<option id="cat10">Cat. 10 - Philippine Islands</option>
+				<option id="cat11">Cat. 11 - Oceania (incl. Australia)</option>
+				<option id="cat13">Cat. 13 - Photographic prints (without negatives)</option>
+				<option id="cat15">Cat. 15 - Photographic negatives</option>
+				<option id="cat16">Cat. 16 - South America (except Uhle Collection)</option>
+				<option id="cat17">Cat. 17 - Drawings and Paintings</option>
+				<option id="cat18">Cat. 18 - Malaysia (incl. Indonesia, excl. Philippine Islands)</option>
+				<option id="cat22">Cat. 22 - Rubbings of Greek &amp; Latin Inscriptions</option>
+				<option id="cat23">Cat. 23 - No provenience (most of catalog deleted)</option>
+				<option id="cat25">Cat. 25 - Kodachrome color transparencies</option>
+				<option id="cat26">Cat. 26 - Motion picture film</option>
+				<option id="cat28">Cat. 28 - unknown (retired catalog)</option>
+				<option id="catbarr">Cat. B - Barr collection</option>
+				<option id="catbascpm">Cat. Bascom</option>
+				<option id="cate">Cat. E</option>
+				<option id="catk">Cat. K - Kelly collection</option>
+				<option id="catl">Cat. L - Lillard Collection</option>
+				<option id="catn">Cat. NO</option>
+				<option id="catb">Cat. TB</option>
+				<option id="faunalrem">Faunal Remains</option>
+				<option id="humanrem">Human Remains</option>
+				<option id="loanin">Loans In</option>
+				<option id="maps">Maps</option>
+				<option id="mixfaunalhumanrems">Mixed faunal and human remains</option>
+				<option id="mounts">Mounts</option>
+				<option id="nagpra">NAGPRA-associated Funerary Objects</option>
+				<option id="reg">Registration</option>
+		</options>
+	</instance>
+	<instance id="vocab-datasource">
+		<web-url>datasource</web-url>
+		<title-ref>datasource</title-ref>
+		<title>datasource</title>
+		<options>
+			<!-- <option id="" default="yes">(none selected)</option> -->
+			<option id="AC">Alaska Commercial Company</option>
+			<option id="BM">Basket Move Project</option>
+			<option id="BS">Barrett Slide</option>
+			<option id="BY">Bernard-Murray Tibetan Collection</option>
+			<option id="CC">Classical Coin Rehousing</option>
+			<option id="CD">Collections Management/Design Department (Inventory entries that matched original DD database)</option>
+			<option id="CM">Collections Management</option>
+			<option id="CMAA">Collections Management: AA Inventory</option>
+			<option id="CMAO">Collections Management: Archaeology Object Use</option>
+			<option id="CMBM">Collections Management: BLM Project</option>
+			<option id="CMBT">Collections Management: Boxed Textile Move</option>
+			<option id="CMCE">Collections Management: Centennial Exhibit</option>
+			<option id="CMDC">Collections Management: Duct Cleaning Project</option>
+			<option id="CMDH">Collections Management: Dave Hill Inventory</option>
+			<option id="CMFA">Collections Management: Fire Alarm Project</option>
+			<option id="CMFI">Collections Management: F-29 Inventory</option>
+			<option id="CMOU">Collections Management: General Object Use</option>
+			<option id="CMPL">Collections Management: Pacific Legacy</option>
+			<option id="CMRT">Collections Management: Rolled Textile Move</option>
+			<option id="CMS1">Collections Management: Study Locker 8, 9, 14 Inventory</option>
+			<option id="CMS2">Collections Management: Study Locker 10 – 13 Inventory</option>
+			<option id="CMSN">Collections Management: Son-299</option>
+			<option id="CMTQ">Collections Management: Turquoise Loan</option>
+			<option id="CN">Conservation</option>
+			<option id="DD">Design Department</option>
+			<option id="FA">Fauna Rehousing</option>
+			<option id="FL">Floppy Disk</option>
+			<option id="GP">Gene Prince</option>
+			<option id="HI">Hearst Inventory</option>
+			<option id="KE">Keeling Binder Data</option>
+			<option id="MO">MOAC Project</option>
+			<option id="NG">NAGPRA</option>
+			<option id="PH">Original PHOEBE database</option>
+			<option id="RG">Registration</option>
+			<option id="SS">Steve Shackley</option>
+		</options>
+	</instance>
 </instances>
