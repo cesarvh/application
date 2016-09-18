@@ -359,4 +359,29 @@
 			<option id="113">Keeling Series 113: Miscellaneous</option>
 		</options>
 	</instance>
+	<instance id="vocab-inscriptionmethod">
+		<web-url>inscriptionmethod</web-url>
+		<title-ref>inscriptionmethod</title-ref>
+		<title>inscriptionmethod</title>
+		<options>
+			<option id="none">(none selected)</option>
+			<option id="inscmethod01">abrasion</option>
+			<option id="inscmethod02">appliqué</option>
+			<option id="inscmethod03">brushing</option>
+			<option id="inscmethod04">carving</option>
+			<option id="inscmethod05">chiseling</option>
+			<option id="inscmethod06">combing</option>
+			<option id="inscmethod07">drilling</option>
+			<option id="inscmethod08">embossing</option>
+			<option id="inscmethod09">engraving</option>
+			<option id="inscmethod10">etching</option>
+			<option id="inscmethod11">hammered dies</option>
+			<option id="inscmethod12">incision</option>
+			<option id="inscmethod13">painting</option>
+			<option id="inscmethod14">pen and ink</option>
+			<option id="inscmethod15">printing</option>
+			<option id="inscmethod16">punching</option>
+			<option id="inscmethod17">pyrography</option>
+		</options>
+	</instance>
 </instances>

@@ -671,28 +671,18 @@
 						<option id="tattoo">tattoo</option>
 					</options>
 				</field>
-				<field id="inscriptionContentMethod">
-					<!-- Add options -->
-					<options>
-						<option id="">(none selected)</option>
-						<option id="abrasion">abrasion</option>
-						<option id="appliqué">appliqué</option>
-						<option id="brushing">brushing</option>
-						<option id="carving">carving</option>
-						<option id="chiseling">chiseling</option>
-						<option id="combing">combing</option>
-						<option id="drilling">drilling</option>
-						<option id="embossing">embossing</option>
-						<option id="engraving">engraving</option>
-						<option id="etching">etching</option>
-						<option id="Hammered dies">hammered dies</option>
-						<option id="incision">incision</option>
-						<option id="painting">painting</option>
-						<option id="penAndInk">pen and ink</option>
-						<option id="printing">printing</option>
-						<option id="punching">punching</option>
-						<option id="pyrography">pyrography</option>
-					</options>
+
+<!-- 		<field id="portfolioSeries" section="pahma" ui-search="repeatable" autocomplete="vocab-" ui-type="enum">
+			<enum>
+				<default>urn:cspace:pahma.cspace.berkeley.edu:vocabularies:name(keelingaudioseries):item:name(none)'(none selected)'</default>
+			</enum>
+		</field> -->
+
+
+				<field id="inscriptionContentMethod" section="pahma" ui-search="repeatable" autocomplete="vocab-inscriptionmethod" ui-type="enum">
+					<enum>
+						<default>urn:cspace:pahma.cspace.berkeley.edu:vocabularies:name(inscriptionmethod):item:name(none)'(none selected)'</default>
+					</enum>
 				</field>
 			</repeat>
 		</section>
