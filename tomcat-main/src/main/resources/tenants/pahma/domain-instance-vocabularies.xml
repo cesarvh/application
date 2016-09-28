@@ -131,4 +131,165 @@
 			<option id="survey">survey</option>
 		</options>
 	</instance>
+
+
+<!-- JENNIFER'S STUFF --> 
+
+	<instance id="vocab-assocorganizationtype">
+		<web-url>assocorganizationtype</web-url>
+		<title-ref>assocorganizationtype</title-ref>
+		<title>assocorganizationtype</title>
+		<options>
+			<option id="donor">donor</option>
+			<option id="endorser">endorser</option>
+			<option id="landowner">landowner</option>
+			<option id="seller">seller</option>
+			<option id="sponsor">sponsor</option>
+			<option id="user">user</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocpersontype">
+		<web-url>assocpersontype</web-url>
+		<title-ref>assocpersontype</title-ref>
+		<title>assocpersontype</title>
+		<options>
+			<option id="dealer">dealer</option>
+			<option id="donor">donor</option>
+			<option id="inmemoriam">in memoriam</option>
+			<option id="in_urned">in-urned</option>
+			<option id="informant">informant</option>
+			<option id="inspector">inspector</option>
+			<option id="patron">patron</option>
+			<option id="photograph_requestor">photograph requestor</option>
+			<option id="seller">seller</option>
+			<option id="transferree">transferree</option>
+			<option id="transferrer">transferrer</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocplacetype">
+		<web-url>assocplacetype</web-url>
+		<title-ref>assocplacetype</title-ref>
+		<title>assocplacetype</title>
+		<options>
+			<option id="auctioned">auctioned in/at</option>
+			<option id="excavated">excavated at</option>
+			<option id="found">found at</option>
+			<option id="nativeTo">native to</option>
+			<option id="purchased">purchased in/at</option>
+			<option id="recovered">recovered from</option>
+			<option id="quarried">quarried from</option>
+			<option id="used">used in/at</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocculturalcontexttype">
+		<web-url>assocculturalcontexttype</web-url>
+		<title-ref>assocculturalcontexttype</title-ref>
+		<title>assocculturalcontexttype</title>
+		<options>
+			<option id="descendedFrom">descended from</option>
+			<option id="exampleOf">example of</option>
+			<option id="inspiredBy">inspired by</option>
+			<option id="relatedTo">related to</option>
+			<option id="similarTo">typologically similar to</option>
+			<option id="identicalTo">typologically identical to</option>
+			<option id="influencedBy">influenced by</option>
+			<option id="reminiscentOf">reminiscent of</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocdatetype">
+		<web-url>assocdatetype</web-url>
+		<title-ref>assocdatetype</title-ref>
+		<title>assocdatetype</title>
+		<options>
+			<option id="conservation_date">conservation date</option>
+			<option id="date_missing">date missing</option>
+			<option id="date_of_analysis">date of analysis</option>
+			<option id="date_photographed">date photographed</option>
+			<option id="date_received">date received</option>
+			<option id="date_used">date used</option>
+			<option id="deaccession_date">deaccession date</option>
+			<option id="destruction_date">destruction date</option>
+			<option id="immured">immured</option>
+			<option id="material_date">material date</option>
+			<option id="minting">minting</option>
+			<option id="mounted">mounted</option>
+			<option id="partial_deaccession_loss_destruc">partial deaccession/loss/destruc</option>
+			<option id="patent_date">patent date</option>
+			<option id="published">published</option>
+			<option id="recatalogued_date">recatalogued date</option>
+			<option id="ruler_date">ruler date</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocconcepttype">
+		<web-url>assocconcepttype</web-url>
+		<title-ref>assocconcepttype</title-ref>
+		<title>assocconcepttype</title>
+		<options>
+			<option id="causedBy">caused by</option>
+			<option id="dependsOn">depends on</option>
+			<option id="effectOf">effect of</option>
+			<option id="exampleOf">example of</option>
+			<option id="influencedBy">influenced by</option>
+			<option id="inspiredBy">inspired by</option>
+			<option id="partOf">part of</option>
+			<option id="relatedTo">related to</option>
+			<option id="reminiscentOf">reminiscent of</option>
+			<option id="sameAs">same as</option>
+			<option id="sameClassAs">same class as</option>
+			<option id="similarTo">similar to</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocobjecttype">
+		<web-url>assocobjecttype</web-url>
+		<title-ref>assocobjecttype</title-ref>
+		<title>assocobjecttype</title>
+		<options>
+			<option id="adhering">adhering</option>
+			<option id="associatedWith">associated with</option>
+			<option id="embedded">embedded</option>
+			<option id="foundNear">found near</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assocactivitytype">
+		<web-url>assocactivitytype</web-url>
+		<title-ref>assocactivitytype</title-ref>
+		<title>assocactivitytype</title>
+		<options>
+			<option id="played">played</option>
+			<option id="recorded">recorded</option>
+			<option id="sung">sung</option>
+			<option id="used">used</option>
+			<option id="viewed">viewed</option>
+			<option id="worn">worn</option>
+			<option id="unknown">unknown</option>
+		</options>
+	</instance>
+
+	<instance id="vocab-assoceventnametype">
+		<web-url>assoceventnametype</web-url>
+		<title-ref>assoceventnametype</title-ref>
+		<title>assoceventnametype</title>
+		<options>
+			<option id="ceremony">ceremony</option>
+			<option id="classVisit">class visit</option>
+			<option id="courtesyVisit">courtesy visit</option>
+			<option id="dance">dance</option>
+			<option id="exhibit">exhibit</option>
+			<option id="lecture">lecture</option>
+			<option id="memberEvent">member event</option>
+			<option id="nagpraConsultation">NAGPRA consultation</option>
+			<option id="reception">reception</option>
+			<option id="researchVisit">research visit</option>
+			<option id="tour">tour</option>
+			<option id="tribalVisit">tribal visit</option>
+		</options>
+	</instance>
+
 </instances>

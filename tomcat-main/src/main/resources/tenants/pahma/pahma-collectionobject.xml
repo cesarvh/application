@@ -1067,11 +1067,11 @@
 	<section id="objectHistoryAssociationInformation">
 		<section id="associationInformation">
 			<repeat id="assocActivityGroupList/assocActivityGroup">
-				<field id="assocActivityType">
+				<field id="assocActivityType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocactivitytype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocActivityType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="played">played</option>
 						<option id="recorded">recorded</option>
@@ -1080,31 +1080,31 @@
 						<option id="viewed">viewed</option>
 						<option id="worn">worn</option>
 						<option id="unknown">unknown</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			<repeat id="assocObjectGroupList/assocObjectGroup">
-				<field id="assocObjectType">
+				<field id="assocObjectType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocobjecttype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocObjectType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="adhering">adhering</option>
 						<option id="associatedWith">associated with</option>
 						<option id="embedded">embedded</option>
 						<option id="foundNear">found near</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			<repeat id="assocConceptGroupList/assocConceptGroup">
 				<!-- Remove autocomplete -->
 				<field id="assocConcept" autocomplete=""/>
-				<field id="assocConceptType">
+				<field id="assocConceptType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocconcepttype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocConceptType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="causedBy">caused by</option>
 						<option id="dependsOn">depends on</option>
@@ -1118,17 +1118,17 @@
 						<option id="sameAs">same as</option>
 						<option id="sameClassAs">same class as</option>
 						<option id="similarTo">similar to</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			<repeat id="assocCulturalContextGroupList/assocCulturalContextGroup">
 				<!-- Add autocomplete and ui-search -->
 				<field id="assocCulturalContext" autocomplete="concept-concept,concept-archculture" ui-search="repeatable"/>
-				<field id="assocCulturalContextType">
+				<field id="assocCulturalContextType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocculturalcontexttype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocCulturalContextType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="descendedFrom">descended from</option>
 						<option id="exampleOf">example of</option>
@@ -1138,17 +1138,17 @@
 						<option id="identicalTo">typologically identical to</option>
 						<option id="influencedBy">influenced by</option>
 						<option id="reminiscentOf">reminiscent of</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			<repeat id="assocOrganizationGroupList/assocOrganizationGroup">
 				<!-- Add ui-search -->
 				<field id="assocOrganization" ui-search="repeatable"/>
-				<field id="assocOrganizationType">
+				<field id="assocOrganizationType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocorganizationtype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocOrganizationType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="donor">donor</option>
 						<option id="endorser">endorser</option>
@@ -1156,7 +1156,7 @@
 						<option id="seller">seller</option>
 						<option id="sponsor">sponsor</option>
 						<option id="user">user</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			<repeat id="assocPeopleGroupList/assocPeopleGroup">
@@ -1184,11 +1184,11 @@
 			<repeat id="assocPersonGroupList/assocPersonGroup">
 				<!-- Add ui-search -->
 				<field id="assocPerson" ui-search="repeatable"/>
-				<field id="assocPersonType">
+				<field id="assocPersonType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocpersontype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocPersonType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="dealer">dealer</option>
 						<option id="donor">donor</option>
@@ -1201,38 +1201,38 @@
 						<option id="seller">seller</option>
 						<option id="transferree">transferree</option>
 						<option id="transferrer">transferrer</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			<repeat id="assocPlaceGroupList/assocPlaceGroup">
 				<!-- Add autocomplete and ui-search -->
 				<field id="assocPlace" autocomplete="place-place" ui-search="repeatable"/>
-				<field id="assocPlaceType">
+				<field id="assocPlaceType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocplacetype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocPlaceType</selector>
 					<!-- Add options -->
-					<options>
+<!-- 					<options>
 						<option id="" default="yes">(none selected)</option>
-						<option id="auctioned">auctioned in/at</option>
+						<option id="auctioned">auctioned in/at</option> -->
 						<!--
 						<option id="blessingLocation">blessed at</option>
 						<option id="consecration">consecrated at</option>
 						-->
-						<option id="excavated">excavated at</option>
+<!-- 						<option id="excavated">excavated at</option>
 						<option id="found">found at</option>
 						<option id="nativeTo">native to</option>
 						<option id="purchased">purchased in/at</option>
 						<option id="recovered">recovered from</option>
 						<option id="quarried">quarried from</option>
 						<option id="used">used in/at</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
-			<field id="assocEventNameType">
+			<field id="assocEventNameType" section="pahma" ui-search="repeatable" autocomplete="vocab-assoceventnametype" ui-type="enum">
 				<!-- Add selector -->
 				<selector>collection-object-assocEventNameType</selector>
 				<!-- Add options -->
-				<options>
+<!-- 				<options>
 					<option id="" default="yes">(none selected)</option>
 					<option id="ceremony">ceremony</option>
 					<option id="classVisit">class visit</option>
@@ -1246,7 +1246,7 @@
 					<option id="researchVisit">research visit</option>
 					<option id="tour">tour</option>
 					<option id="tribalVisit">tribal visit</option>
-				</options>
+				</options> -->
 			</field>
 			<repeat id="assocEventPeoples">
 				<!-- Add autocomplete -->
@@ -1259,12 +1259,12 @@
 			<repeat id="assocDateGroupList/assocDateGroup">
 				<!-- Add ui-search -->
 				<group id="assocStructuredDateGroup" ui-search="repeatable"/>
-				<field id="assocDateType">
+				<field id="assocDateType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocdatetype" ui-type="enum">
 					<!-- Add selector -->
 					<selector>collection-object-assocDateType</selector>
 					<!-- Add options -->
-					<options>
-						<option id="" default="yes">(none selected)</option>
+<!-- 					<options>
+						<option id="" default="yes">(none selected)</option> -->
 						<!-- 
 						<option id="discovered">discovered</option>
 						<option id="found">found</option>
@@ -1272,7 +1272,7 @@
 						<option id="used">used</option>
 						<option id="worn">worn</option>
 						-->
-						<option id="conservation date">conservation date</option>
+<!-- 						<option id="conservation date">conservation date</option>
 						<option id="date missing">date missing</option>
 						<option id="date of analysis">date of analysis</option>
 						<option id="date photographed">date photographed</option>
@@ -1289,7 +1289,7 @@
 						<option id="published">published</option>
 						<option id="recatalogued date">recatalogued date</option>
 						<option id="ruler date">ruler date</option>
-					</options>
+					</options> -->
 				</field>
 			</repeat>
 			
