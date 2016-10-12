@@ -605,26 +605,21 @@
 						<blank-value>(none selected)</blank-value>
 					</enum>
 				</field>
-				<field id="inscriptionContentPosition">
-					<!-- Change options -->
-					<options>
-						<option id="">(none selected)</option>
-						<option id="In exergue of coin">In exergue of coin</option>
-						<option id="On obverse of coin">On obverse of coin</option>
-						<option id="On obverse of coin, before">On obverse of coin, before</option>
-						<option id="On obverse of coin, behind">On obverse of coin, behind</option>
-						<option id="On reverse of coin">On reverse of coin</option>
-						<option id="On reverse of coin, above">On reverse of coin, above</option>
-						<option id="On reverse of coin, before">On reverse of coin, before</option>
-						<option id="On reverse of coin, behind">On reverse of coin, behind</option>
-						<option id="On reverse of coin, below">On reverse of coin, below</option>
-						<option id="On reverse of coin, beneath">On reverse of coin, beneath</option>
-						<option id="verso">verso</option>
-					</options>
+
+				<field id="inscriptionContentPosition" section="pahma" ui-search="repeatable" autocomplete="vocab-inscriptionposition" ui-type="enum">
+					<enum>
+						<default>urn:cspace:pahma.cspace.berkeley.edu:vocabularies:name(inscriptionposition):item:name(none)'(none selected)'</default>
+					</enum>
 				</field>
-				<field id="inscriptionContentScript">
+				
+				<field id="inscriptionContentScript" section="pahma" ui-search="repeatable" autocomplete="vocab-inscriptionscript" ui-type="enum">  <!-- ui-repeable?-->
+					<enum>
+						<default>urn:cspace:pahma.cspace.berkeley.edu:vocabularies:name(inscriptionscript):item:name(none)'(none selected)'</default>
+					</enum>
+
+
 					<!-- Change options -->
-					<options>
+					<!-- <options>
 						<option id="">(none selected)</option>
 						<option id="beneventanScript">Beneventan script</option>
 						<option id="blackletter">blackletter</option>
@@ -647,7 +642,7 @@
 						<option id="spencerianMethod">Spencerian method</option>
 						<option id="squareCapitals">square capitals</option>
 						<option id="visigothicScript">Visigothic script</option>
-					</options>
+					</options> -->
 				</field>
 				<field id="inscriptionContentType">
 					<!-- Change options -->
