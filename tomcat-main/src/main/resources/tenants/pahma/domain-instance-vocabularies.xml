@@ -384,6 +384,7 @@
 			<option id="inscmethod17">pyrography</option>
 		</options>
 	</instance>
+
 	<instance id="vocab-inscriptionposition">
 		<web-url>inscriptionposition</web-url>
 		<title-ref>inscriptionposition</title-ref>
@@ -430,6 +431,72 @@
 			<option id="inscrscript20">Spencerian method</option>
 			<option id="inscrscript21">square capitals</option>
 			<option id="inscrscript22">Visigothic script</option>
+
+	<instance id="vocab-contentposition">
+		<web-url>contentposition</web-url>
+		<title-ref>contentposition</title-ref>
+		<title>contentposition</title>
+		<options>
+			<option id="cp_back">back</option>
+			<option id="cp_base">base</option>
+			<option id="cp_bottom">bottom</option>
+			<option id="cp_front">front</option>
+			<option id="cp_inside">inside</option>
+			<option id="cp_left">left</option>
+			<option id="cp_obverse">obverse</option>
+			<option id="cp_outside">outside</option>
+			<option id="cp_recto">recto</option>
+			<option id="cp_reverse">reverse</option>
+			<option id="cp_right">right</option>
+			<option id="cp_rim">rim</option>
+			<option id="cp_top">top</option>
+			<option id="cp_verso">verso</option>
+		</options>
+	</instance>
+	<instance id="vocab-inscriptionDescriptionMethod">
+		<web-url>inscriptionDescriptionMethod</web-url>
+		<title-ref>inscriptionDescriptionMethod</title-ref>
+		<title>inscriptionDescriptionMethod</title>
+		<options>
+			<option id="idm_abrasion">abrasion</option>
+			<option id="idm_applique">appliqué</option>
+			<option id="idm_brushing">brushing</option>
+			<option id="idm_carving">carving</option>
+			<option id="idm_chiseling">chiseling</option>
+			<option id="idm_combing">combing</option>
+			<option id="idm_drilling">drilling</option>
+			<option id="idm_embossing">embossing</option>
+			<option id="idm_engraving">engraving</option>
+			<option id="idm_etching">etching</option>
+			<option id="idm_hammereddies">hammered dies</option>
+			<option id="idm_incision">incision</option>
+			<option id="idm_painting">painting</option>
+			<option id="idm_penAndInk">pen and ink</option>
+			<option id="idm_printing">printing</option>
+			<option id="idm_punching">punching</option>
+			<option id="idm_pyrography">pyrography</option>
+		</options>
+	</instance>
+	<instance id="vocab-inscriptionDescriptionPosition">
+		<web-url>inscriptionDescriptionPosition</web-url>
+		<title-ref>inscriptionDescriptionPosition</title-ref>
+		<title>inscriptionDescriptionPosition</title>
+		<options>
+			<option id="idp_back">back</option>
+			<option id="idp_base">base</option>
+			<option id="idp_bottom">bottom</option>
+			<option id="idp_front">front</option>
+			<option id="idp_inside">inside</option>
+			<option id="idp_left">left</option>
+			<option id="idp_obverse">obverse</option>
+			<option id="idp_outside">outside</option>
+			<option id="idp_recto">recto</option>
+			<option id="idp_reverse">reverse</option>
+			<option id="idp_right">right</option>
+			<option id="idp_rim">rim</option>
+			<option id="idp_top">top</option>
+			<option id="idp_verso">verso</option>
+
 		</options>
 	</instance>
 </instances>
