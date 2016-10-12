@@ -1144,11 +1144,12 @@
 			<repeat id="assocOrganizationGroupList/assocOrganizationGroup">
 				<!-- Add ui-search -->
 				<field id="assocOrganization" ui-search="repeatable"/>
-				<field id="assocOrganizationType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocorganizationtype" ui-type="enum">
+				<field id="assocOrganizationType">
+				<!-- <field id="assocOrganizationType" section="pahma" ui-search="repeatable" autocomplete="vocab-assocorganizationtype" ui-type="enum"> -->
 					<!-- Add selector -->
 					<selector>collection-object-assocOrganizationType</selector>
 					<!-- Add options -->
-<!-- 					<options>
+					<options>
 						<option id="" default="yes">(none selected)</option>
 						<option id="donor">donor</option>
 						<option id="endorser">endorser</option>
@@ -1156,7 +1157,7 @@
 						<option id="seller">seller</option>
 						<option id="sponsor">sponsor</option>
 						<option id="user">user</option>
-					</options> -->
+					</options>
 				</field>
 			</repeat>
 			<repeat id="assocPeopleGroupList/assocPeopleGroup">
