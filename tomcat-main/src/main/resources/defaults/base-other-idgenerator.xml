@@ -22,6 +22,9 @@
                     <field id="uoc">
                         <selector>9088cfa5-d743-5824-cb4d-eb11b12847f7</selector>
                     </field>
+                    <field id="proj">
+                        <selector>ddba36e0-0534-495d-84ea-8b8b65a1f79f</selector>
+                    </field>
                     <field id="inventory">
                         <selector>6d472be6-2534-47f3-a3f1-3f160e7a9303</selector>
                     </field>
