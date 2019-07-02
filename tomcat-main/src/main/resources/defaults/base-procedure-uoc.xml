@@ -108,6 +108,11 @@
                     <field id="note" />
                     <field id="provisos" />
                     <field id="result" />
+
+                    <!-- New fields start here -->
+                    <field name="citationDescription" />
+                    <field name="dateRequested" ui-search="range" ui-type="date" datatype="date"></field>
+                    <field name="dateFulfilled" ui-search="range" ui-type="date" datatype="date"></field>
                 </section>
             </record>
 
